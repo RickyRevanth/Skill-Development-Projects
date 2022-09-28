@@ -1,0 +1,35 @@
+.products-menu{
+    width: 10rem;
+    position: absolute;
+    top: 77px;
+    list-style: none;
+    text-align: start;
+}
+
+.products-menu li{
+    background: rgb(0,21,212);
+    cursor: pointer;
+}
+
+.products-menu li a:hover{
+    background: rgb(0,212,212);
+    cursor: pointer;
+}
+
+.products-menu.clicked{
+    display: none;
+}
+
+.product-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+.product-item:hover{
+    background: rgb(0,212,212);
+}
+

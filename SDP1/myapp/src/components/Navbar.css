@@ -1,0 +1,56 @@
+.navbar{
+    height:10vh;
+    background:black;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    text-decoration: none;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 10rem;
+}
+
+.logo-space{
+    padding: 16px;
+}
+
+.spacer{
+    flex:1;
+}
+
+.nav-items {
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 70rem;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.nav-item a:hover{
+    background: rgb(0,21,212);;
+}
+
+
